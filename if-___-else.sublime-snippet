@@ -1,11 +1,15 @@
 <snippet>
-    <content><![CDATA[if( ${1:true} )
+    <content>
+<![CDATA[
+if(${1:true})
 {
 	${0:$TM_SELECTED_TEXT}
-}else
+}
+else
 {
 	
-}]]></content>
+}
+]]></content>
     <tabTrigger>ife</tabTrigger>
     <scope>source.actionscript.3</scope>
     <description>if … else</description>
